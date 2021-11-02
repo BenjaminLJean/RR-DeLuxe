@@ -95,13 +95,13 @@ RAM-RAM DeLuxe is a React and Ruby on Rails build that is decision based adventu
 
 - Death Page
 
-![Forum Page](https://i.ibb.co/WNCwMPf/Screen-Shot-2021-11-02-at-2-34-37-PM.png)
+![Forum Page](https://i.ibb.co/RQsCjk9/Screen-Shot-2021-11-02-at-2-45-46-PM.png)
 
 - Forum Page
 
 #### Component Tree
 
-[Component Tree Sample](https://i.ibb.co/RQsCjk9/Screen-Shot-2021-11-02-at-2-45-46-PM.png)
+[Component Tree Sample](https://i.ibb.co/jkSNf0x/Screen-Shot-2021-11-02-at-11-26-10-AM.png)
 
 #### Component Architecture
 
