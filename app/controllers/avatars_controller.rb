@@ -1,5 +1,6 @@
 class AvatarsController < ApplicationController
   before_action :set_avatar, only: [:show, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /avatars
   def index
@@ -19,7 +20,7 @@ class AvatarsController < ApplicationController
     @avatar.user = @current_user
 
     if @avatar.save
-      render json: @avatar, status: :created, location: @avatar
+      render json: @avatar, status: :created
     else
       render json: @avatar.errors, status: :unprocessable_entity
     end
