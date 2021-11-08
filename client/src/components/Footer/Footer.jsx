@@ -1,10 +1,13 @@
-
+import { Link } from "react-router-dom"
 
 
 export default function Footer() {
   return (
     <div>
-      <h2>This is my footer, KekW</h2>
+      <p>Copyright 2021</p>
+      <div className="links">
+        <Link to="https://github.com/BenjaminLJean/">Github</Link>
+      </div>
     </div>
   )
 }

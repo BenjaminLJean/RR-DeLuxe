@@ -15,13 +15,13 @@ User.destroy_all
 
 puts "#{User.count} users created"
 
-2.times do
+1.times do
   Avatar.create!(name: Faker::Name.name, rank: 'Runt', status: 'Alive', user: @admin)
 end
 
 puts "#{Avatar.count} avatars created"
 
 
-Post.create!(name: @admin.username, content: 'This is simply a test to see if this works, hopefully it does.', user: @admin)
+Post.create!(name: @admin.username, content: 'This Game is AWESOME, I love the Design and it really feels like an adventure game. Sadly i did die pretty early on but i got to make a new Avatar whom became a Legend. I did notice that the background on mobile would clip every now and then and repeat itself but aside from that everything was amazing. ', user: @admin)
 
 puts "#{Post.count} posts created"

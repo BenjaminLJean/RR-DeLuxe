@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://res.cloudinary.com/dw1j8rhne/image/upload/v1636376052/P4%20Pictures/forum-page-background_wjd7ru.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: #39C5B6;
+  font-weight: bolder;
+  text-shadow: 1px 0 0 #8DE940, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 700px){
+  
+  body {
+    background-image: url(https://res.cloudinary.com/dw1j8rhne/image/upload/v1636376064/P4%20Pictures/RamRam_background_hz29rg.jpg);
+    display: flex;
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-height: 400px){
+  
+  body {
+    background-image: url(https://res.cloudinary.com/dw1j8rhne/image/upload/v1636376064/P4%20Pictures/RamRam_background_hz29rg.jpg);
+    display: flex;
+    font-size: small;
+  }
+}
+
